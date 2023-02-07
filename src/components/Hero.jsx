@@ -4,6 +4,7 @@ import { useMediaQuery } from 'react-responsive';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper';
 
+
 // Import Swiper styles
 import 'swiper/css';
 
@@ -12,6 +13,7 @@ import 'swiper/css';
 
 const Hero = () => {
   const isLargeScreen = useMediaQuery({ minWidth: 768 });
+
 
   const [data, setData] = useState([]);
   const gqlQuery = `query pokemons($limit: Int) {
@@ -62,7 +64,9 @@ const Hero = () => {
         isLargeScreen && <Swiper>
       <div className="grid grid-cols-5 gap-10 mt-10 max-w-screen-2xl lg:mx-auto">
         {data?.map((oneData, index) => (
-          <InfoCards key={index} oneData={oneData}></InfoCards>
+          <div>
+    <InfoCards key={index} oneData={oneData}></InfoCards>
+          </div>
         ))}
       </div>
         </Swiper>
