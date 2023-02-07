@@ -23,9 +23,48 @@ const Bottom = () => {
                     <div className='text-justify'>
                         <div className='flex items-center justify-center gap-x-5'>
                             <div>
-                                <p className='hidden lg:block'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ab. Hic aut error nostrum consequuntur facilis praesentium, rem itaque. Cupiditate officia iure, qui magnam esse adipisci necessitatibus blanditiis tempora velit, beatae ea sequi illum aut quo maxime minima repellendus dolore nostrum excepturi provident. Beatae aliquam officia fugiat maxime quod quisquam delectus ad Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi magni ex distinctio aperiam eaque. Ad fuga nulla blanditiis quos aperiam.</p>
+                                <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ab. Hic aut error nostrum consequuntur facilis praesentium, rem itaque. Cupiditate officia iure, qui magnam esse adipisci necessitatibus blanditiis tempora velit, beatae ea sequi illum aut quo maxime minima repellendus dolore nostrum excepturi provident. Beatae aliquam officia fugiat maxime quod quisquam delectus ad Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi magni ex distinctio aperiam eaque. Ad fuga nulla blanditiis quos aperiam.</p>
+                                {/* this part is for mobile responsive and will apear only on mobile */}
+                                <div className="flex justify-center lg:hidden">
+                                    <div className="flex items-center">
+                                        <div className="">
+                                            <img
+
+                                                src="https://i.ibb.co/FzTVjpV/Image04.png"
+                                                alt=""
+                                                srcset=""
+                                            />
+                                        </div>
+                                        <div className="my-10 ml-7">
+                                            <img
+                                                className="mb-5"
+                                                src="https://i.ibb.co/KswhPJ8/Image03.png"
+                                                alt=""
+                                                srcset=""
+                                            />
+                                            <img
+                                                src="https://i.ibb.co/10vgL2s/Image02.png"
+                                                alt=""
+                                                srcset=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="mt-36 ml-7">
+                                        <img
+                                            className="mb-5"
+                                            src="https://i.ibb.co/GTkSwBc/Image05.png"
+                                            alt=""
+                                            srcset=""
+                                        />
+                                        <img
+                                            src="https://i.ibb.co/cQcKfvb/Image01.png"
+                                            alt=""
+                                            srcset=""
+                                        />
+                                    </div>
+                                </div>
                                 <div className='flex items-center gap-x-5 hidden lg:block'>
-                                    <p className='my-2 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis vel doloremque quaerat delectus error tempore at, accusantium id nesciunt sunt eaque dolores iste blanditiis voluptatem odit qui? Molestias quo cum placeat officia repudiandae ex officiis, quibusdam, sed est beatae laudantium rerum cumque minus aut consectetur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, odio!</p>
+                                    <p className='my-2 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis vel doloremque quaerat delectus error tempore at, accusantium id nesciunt sunt eaque dolores iste blanditiis voluptatem odit qui? Molestias quo cum placeat officia repudiandae ex officiis, quibusdam, sed est beatae laudantium rerum cumque minus aut consectetur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, odiosss!</p>
                                     <img className='h-full w-full my-3' src="https://i.ibb.co/FzTVjpV/Image04.png" alt="image4" srcSet="" />
                                 </div>
                                 <p className='hidden lg:block'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, harum error voluptates laboriosam corrupti sapiente fuga ea assumenda. Consectetur, repellendus aliquid? Ducimus esse nobis placeat veritatis, itaque mollitia sapiente animi impedit perspiciatis labore, tenetur beatae magnam nihil nostrum alias ipsum ipsa soluta aperiam suscipit? Beatae, aliquam ex Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, vitae porro? Neque quaerat minima suscipit ad consectetur aspernatur quidem similique.</p>
@@ -47,7 +86,7 @@ const Bottom = () => {
                             <img className='h-full w-full my-2  hidden lg:block' src="https://i.ibb.co/cQcKfvb/Image01.png" alt="" srcset="" />
                             <p className='hidden lg:block'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, harum error voluptates laboriosam corrupti sapiente fuga ea assumenda. Consectetur, repellendus aliquid? Ducimus esse nobis placeat veritatis, itaque mollitia sapiente animi impedit perspiciatis labore, tenetur beatae magnam nihil nostrum alias ipsum ipsa soluta aperiam suscipit? Beatae, aliquam ex? Rem, voluptas! Rem commodi voluptatibus magni animi, ex laboriosam ipsum illum voluptate.</p>
                         </div>
-                        <p className='mt-5  hidden lg:block'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequatur delectus assumenda incidunt ad odio recusandae ullam. Veniam reprehenderit voluptatem ab fugiat, eligendi, perspiciatis, natus mollitia vero totam a harum maxime doloremque. Deserunt tenetur magni assumenda? Assumenda, cupiditate corporis illum incidunt, beatae sunt nostrum molestias consectetur magni nam ad dolorem animi deleniti sequi ea esse architecto sed vel ducimus aperiam, natus optio ipsum. Temporibus sint hic deleniti quae doloribus excepturi, dolore mollitia incidunt enim distinctio assumenda nostrum, totam amet magni modi voluptate quos minus? Excepturi at incidunt, dignissimos</p>
+                        <p className='mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequatur delectus assumenda incidunt ad odio recusandae ullam. Veniam reprehenderit voluptatem ab fugiat, eligendi, perspiciatis, natus mollitia vero totam a harum maxime doloremque. Deserunt tenetur magni assumenda? Assumenda, cupiditate corporis illum incidunt, beatae sunt nostrum molestias consectetur magni nam ad dolorem animi deleniti sequi ea esse architecto sed vel ducimus aperiam, natus optio ipsum. Temporibus sint hic deleniti quae doloribus excepturi, dolore mollitia incidunt enim distinctio assumenda nostrum, totam amet magni modi voluptate quos minus? Excepturi at incidunt, dignissimos</p>
                     </div>
                 </div>
             </div>
